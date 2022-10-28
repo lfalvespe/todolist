@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html{
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to right, #4FADC0, #0a131f);
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.378);
+    margin-top: 40px;
+}
+
+
+.entrada {
+    min-width: 400px;
+    max-width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 3px;
+    border: 2.3px solid #4FADC0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.364);
+}
+
+#tituloTarefa {
+    flex: 90%;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    color: #024249;
+    padding-left: 15px;
+}
+
+#tituloTarefa::placeholder {
+    color: #024249;
+}
+
+#tituloTarefa:focus {
+    outline: none;
+}
+
+ion-icon {
+    color: #0a131f;
+}
+
+button:hover ion-icon {
+    color:#fff;
+}
+
+.btn-input{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btnAdd {
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #0E1C2D;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.btnAdd:hover {
+    background-color: #0a131f79;
+    color: #fff;
+    border: 1px solid #07606a;
+}
+
+.ContainerTarefas {
+    margin:auto;
+    margin-top: 30px;
+    min-width: 400px;
+    max-width: 50%;
+    border-radius: 10px;
+    border: 1px dashed #fff;
+    padding: 10px;
+    padding-top:20px;
+}
+
+/*Classe marcado*/
+
+.tarefa {
+    display: flex;
+    justify-content: center;
+    /*gap: 2px;*/
+    list-style-position: inside;
+    background-color: #c5f5ff;
+    margin-bottom: 8px;
+    border-radius: 0px 15px 0px 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.533);
+}
+
+.marcado {
+    background-color: #0E1C2D;
+    text-decoration: line-through;
+    color: rgb(221, 213, 213);
+}
+
+.tituloTarefa {
+    flex: 70%;
+    font-size: 1.3em;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+
+.btn-lista {
+    width: 110px;
+    height: 100%;
+    padding: 0px;
+    background-color: #fff;
+}
+
+/*Botão Marcar*/
+
+.btnMarcar{
+    width: 53px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+
+.btnMarcar:hover {
+    background-color: #00BB22;
+}
+
+/*Botão apagar*/
+
+.btnApagar {
+    width: 53px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+
+.btnApagar:hover {
+    background-color: #eb0927;
+}
+
+/*Classe Hide*/
+
+.hide {
+    display: none;
+}
+
+
+/*Rodapé*/
+
+.footer {
+    margin-top: 90px;
+    font-size: 1.1em;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.549);
+}
+
+p {
+    margin: auto;
+    width:230px;
+    line-height: 25px;
+    border-radius: 5px;
+    box-shadow: 0px -1px 1px #4FADC0;
+   
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
