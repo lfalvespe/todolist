@@ -6,11 +6,6 @@ padding: 0;
 box-sizing: border-box;
 }
 
-
-html{
-    height: 100vh;
-}
-
 body {
     background-image: linear-gradient(to right, #4FADC0, #0a131f);
     width: 90vw;
