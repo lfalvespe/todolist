@@ -6,6 +6,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
 body {
     background-image: linear-gradient(to right, #4FADC0, #0a131f);
     width: 90vw;
@@ -21,7 +22,7 @@ h1, h2 {
 
 
 .entrada {
-    min-width: 400px;
+    min-width: 360px;
     max-width: 45%;
     margin: auto;
     margin-top: 50px;
@@ -35,7 +36,7 @@ h1, h2 {
 }
 
 #tituloTarefa {
-    flex: 90%;
+    flex: 80%;
     font-size: 1.2em;
     border-radius: 10px;
     border: none;
@@ -60,16 +61,17 @@ button:hover ion-icon {
 }
 
 .btn-input{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 10px;
+    
 }
 
 .btnAdd {
     margin-top: auto;
     margin-bottom: auto;
-    min-height: 100%;
-    width: 100%;
+    min-height: 45px;
+    width: 45px;
     background-color: #fff;
     color: #0E1C2D;
     border-radius: 10px;
@@ -84,10 +86,10 @@ button:hover ion-icon {
     border: 1px solid #07606a;
 }
 
-.ContainerTarefas {
+.containerTarefas {
     margin:auto;
     margin-top: 30px;
-    min-width: 400px;
+    min-width: 360px;
     max-width: 50%;
     border-radius: 10px;
     border: 1px dashed #fff;
@@ -126,7 +128,7 @@ button:hover ion-icon {
 }
 
 .btn-lista {
-    width: 110px;
+    width: 120px;
     height: 100%;
     padding: 0px;
     background-color: #fff;
@@ -135,7 +137,7 @@ button:hover ion-icon {
 /*Botão Marcar*/
 
 .btnMarcar{
-    width: 53px;
+    width: 54px;
     height: 50px;
     font-size: 20px;
     border: none;
@@ -149,7 +151,7 @@ button:hover ion-icon {
 /*Botão apagar*/
 
 .btnApagar {
-    width: 53px;
+    width: 55px;
     height: 50px;
     font-size: 20px;
     border: none;
@@ -193,4 +195,3 @@ p {
 .footer a:hover {
     text-decoration: underline;
 }
-
